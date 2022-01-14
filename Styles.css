@@ -1,0 +1,20 @@
+.heading{
+    text-align: center;
+    background-color: #F2AA4CFF;
+    border-radius: 10px;
+}
+
+.menu{
+    height: fit-content;
+    width: 50%;
+    border-style: solid;
+    text-align: center;
+}
+
+#add{
+    position: relative;
+    bottom: 5px;
+    right: -45%;
+    background-color: rgb(69, 187, 118);
+    border-radius: 50%;
+}
