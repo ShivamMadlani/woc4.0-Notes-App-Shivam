@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="eng">
     <head>
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Notes</title>
         <link href='Styles.css' rel="stylesheet">
-        <script src="main.js"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
     <body>
         <div>
             <h1 class="heading">Notes</h1>
         </div>
         <div class="menu">
-            <h3>My notes.</h3>
-            <button id="add">+</button>
+            <h3>My note</h3>
+            <form method="get">
+                <input type="text" name="task" id="task" value="Task 1"><br>
+                <input type="submit" id="submit" value="Done">
+            </form>
         </div>
+        <button id="add"><i class="material-icons">add</i></button>
     </body>
 </html>
