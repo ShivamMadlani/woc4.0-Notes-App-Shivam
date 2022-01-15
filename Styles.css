@@ -1,20 +1,39 @@
+*{
+    margin: 2px;
+    background-color: #FC766AFF;
+}
+
 .heading{
     text-align: center;
-    background-color: #F2AA4CFF;
     border-radius: 10px;
+    background-color: #5B84B1FF;
 }
 
 .menu{
-    height: fit-content;
-    width: 50%;
-    border-style: solid;
+    margin-top: 10px;
+    width: 33%;
+    height: 200px;
+    border: solid;
+    border-radius: 10px;
     text-align: center;
+    background-color: #5B84B1FF;
+}
+
+input{
+    background-color: #a0b6f7;
+    border-radius: 6px;
+}
+
+form, h3{
+    background-color: #5B84B1FF;
 }
 
 #add{
-    position: relative;
-    bottom: 5px;
-    right: -45%;
-    background-color: rgb(69, 187, 118);
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
     border-radius: 50%;
+}
+#add:hover{
+    box-shadow: 5px 5px 9px rgb(160, 71, 63), 0 5px 9px rgb(160, 71, 63);
 }
