@@ -1,12 +1,12 @@
 *{
     margin: 2px;
-    background-color: #FC766AFF;
+    background-color: #5F4B8BFF;
 }
 
 .heading{
     text-align: center;
     border-radius: 10px;
-    background-color: #5B84B1FF;
+    background-color: #E69A8DFF;
 }
 
 .menu{
@@ -16,7 +16,7 @@
     border: solid;
     border-radius: 10px;
     text-align: center;
-    background-color: #5B84B1FF;
+    background-color: #E69A8DFF;
 }
 
 input{
@@ -25,7 +25,7 @@ input{
 }
 
 form, h3{
-    background-color: #5B84B1FF;
+    background-color: #E69A8DFF;
 }
 
 #add{
@@ -35,5 +35,5 @@ form, h3{
     border-radius: 50%;
 }
 #add:hover{
-    box-shadow: 5px 5px 9px rgb(160, 71, 63), 0 5px 9px rgb(160, 71, 63);
+    box-shadow: 5px 5px 9px rgb(65, 39, 121), 0 5px 9px rgb(65, 39, 121);
 }
