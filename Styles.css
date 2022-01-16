@@ -4,7 +4,10 @@
 }
 
 .heading{
+    height: 8vh;
+    line-height: 8vh;
     text-align: center;
+    border: 2px solid #000000;
     border-radius: 10px;
     background-color: #E69A8DFF;
 }
