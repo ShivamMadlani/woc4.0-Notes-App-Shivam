@@ -1,22 +1,27 @@
 *{
-    margin: 2px;
+    margin: 3px;
     background-color: #5F4B8BFF;
 }
 
 .heading{
+    height: 8vh;
+    line-height: 8vh;
     text-align: center;
+    border: 2px solid #000000;
     border-radius: 10px;
     background-color: #E69A8DFF;
+    box-shadow: 3px 3px 10px;
 }
 
 .menu{
-    margin-top: 10px;
+    margin: 20px auto;
     width: 33%;
     height: 200px;
     border: solid;
     border-radius: 10px;
     text-align: center;
     background-color: #E69A8DFF;
+    box-shadow: 3px 3px 10px rgb(60, 22, 136);
 }
 
 input{
@@ -29,11 +34,17 @@ form, h3{
 }
 
 #add{
+    background-color: #E69A8DFF;
     position: absolute;
     bottom: 10px;
     right: 10px;
     border-radius: 50%;
+    box-shadow: 8px 8px 16px rgb(55, 33, 104);
 }
+.material-icons{
+    background-color: #E69A8DFF;
+}
+
 #add:hover{
-    box-shadow: 5px 5px 9px rgb(160, 71, 63), 0 5px 9px rgb(160, 71, 63);
+    box-shadow: 4px 4px 12px;
 }
