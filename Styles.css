@@ -1,6 +1,6 @@
 *{
     margin: 3px;
-    background-color: #333333;
+    background-color: #444444;
 }
 
 .heading{
@@ -20,7 +20,7 @@
     border: solid;
     border-radius: 10px;
     text-align: center;
-    background-color: rgb(80, 98, 105);
+    background-color: #ffffff;
     box-shadow: 3px 3px 10px;
 }
 
@@ -28,32 +28,54 @@ input{
     background-color: #ffff;
 }
 
-form, h3{
-    background-color: rgb(80, 98, 105);
+ul,li, h3{
+    background-color: #ffffff;
 }
 
-#submit{
-    width: 10vw;
-    height: 4vw;
+ul{
+    list-style-type: none;
+}
+
+.btns{
+    background-color: #ffffff;
+}
+
+.addtsk{
     border: solid;
+    font-size: 12px;
     border-color: rgb(131, 184, 51);
+    background-color: #ffffff;
 }
 
-#submit:hover{
+.addtsk:hover{
     color: white;
     background-color: rgb(131, 184, 51);
 }
 
-#del{
-    width: 10vw;
-    height: 4vw;
+.deltsk{
     border: solid;
+    font-size: 12px;
     border-color: red;
+    background-color: #ffffff;
 }
 
-#del:hover{
+.deltsk:hover{
     color: white;
     background-color: red;
+}
+
+#edit{
+    border: none;
+    background-color: #ffffff;
+}
+
+#trash{
+    border: none;
+    background-color: #ffffff;
+}
+
+.material-icons{
+    background-color: #ffffff;
 }
 
 #add{
@@ -63,9 +85,6 @@ form, h3{
     bottom: 10px;
     right: 10px;
     border-radius: 50%;
-}
-.material-icons{
-    background-color: rgb(80, 98, 105);
 }
 
 #add:hover{
