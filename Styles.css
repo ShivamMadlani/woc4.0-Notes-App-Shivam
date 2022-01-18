@@ -15,7 +15,7 @@
 
 .menu{
     margin: 20px auto;
-    width: 33%;
+    width: 240px;
     height: 200px;
     border: solid;
     border-radius: 10px;
@@ -34,6 +34,12 @@ ul,li, h3{
 
 ul{
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    text-align: left;
 }
 
 .btns{
@@ -65,11 +71,23 @@ ul{
 }
 
 #edit{
+    position: relative;
+    left: 50%;
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    width: 30px;
     border: none;
     background-color: #ffffff;
 }
 
 #trash{
+    position: relative;
+    left: 50%;
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    width: 30px;
     border: none;
     background-color: #ffffff;
 }
