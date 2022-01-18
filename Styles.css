@@ -1,6 +1,6 @@
 *{
     margin: 3px;
-    background-color: #5F4B8BFF;
+    background-color: #333333;
 }
 
 .heading{
@@ -9,8 +9,8 @@
     text-align: center;
     border: 2px solid #000000;
     border-radius: 10px;
-    background-color: #E69A8DFF;
-    box-shadow: 3px 3px 10px;
+    background-image: linear-gradient(to right,green, yellow, red);
+    box-shadow: 5px 5px 12px;
 }
 
 .menu{
@@ -20,31 +20,54 @@
     border: solid;
     border-radius: 10px;
     text-align: center;
-    background-color: #E69A8DFF;
-    box-shadow: 3px 3px 10px rgb(60, 22, 136);
+    background-color: rgb(80, 98, 105);
+    box-shadow: 3px 3px 10px;
 }
 
 input{
-    background-color: #a0b6f7;
-    border-radius: 6px;
+    background-color: #ffff;
 }
 
 form, h3{
-    background-color: #E69A8DFF;
+    background-color: rgb(80, 98, 105);
+}
+
+#submit{
+    width: 10vw;
+    height: 4vw;
+    border: solid;
+    border-color: rgb(131, 184, 51);
+}
+
+#submit:hover{
+    color: white;
+    background-color: rgb(131, 184, 51);
+}
+
+#del{
+    width: 10vw;
+    height: 4vw;
+    border: solid;
+    border-color: red;
+}
+
+#del:hover{
+    color: white;
+    background-color: red;
 }
 
 #add{
-    background-color: #E69A8DFF;
-    position: absolute;
+    border-color: greenyellow;
+    background-color: rgb(80, 98, 105);
+    position: fixed;
     bottom: 10px;
     right: 10px;
     border-radius: 50%;
-    box-shadow: 8px 8px 16px rgb(55, 33, 104);
 }
 .material-icons{
-    background-color: #E69A8DFF;
+    background-color: rgb(80, 98, 105);
 }
 
 #add:hover{
-    box-shadow: 4px 4px 12px;
+    box-shadow: 4px 4px 12px #000000;
 }
