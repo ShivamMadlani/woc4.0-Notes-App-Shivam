@@ -1,9 +1,9 @@
-*{
-    margin: 3px;
-    background-color: #444444;
+html{
+    background-color: #333333;
 }
 
 .heading{
+    margin: 0;
     height: 8vh;
     line-height: 8vh;
     text-align: center;
@@ -28,10 +28,6 @@ input{
     background-color: #ffff;
 }
 
-ul,li, h3{
-    background-color: #ffffff;
-}
-
 ul{
     list-style-type: none;
     margin: 0;
@@ -43,6 +39,8 @@ li{
 }
 
 .btns{
+    position: relative;
+    top: 50px;
     background-color: #ffffff;
 }
 
@@ -54,6 +52,7 @@ li{
 }
 
 .addtsk:hover{
+    transform: scale(1.1);
     color: white;
     background-color: rgb(131, 184, 51);
 }
@@ -66,6 +65,7 @@ li{
 }
 
 .deltsk:hover{
+    transform: scale(1.1);
     color: white;
     background-color: red;
 }
@@ -81,6 +81,11 @@ li{
     background-color: #ffffff;
 }
 
+#edit:hover{
+    color: rgb(155, 155, 51);
+    transform: scale(1.08);
+}
+
 #trash{
     position: relative;
     left: 50%;
@@ -92,19 +97,22 @@ li{
     background-color: #ffffff;
 }
 
-.material-icons{
-    background-color: #ffffff;
+#trash:hover{
+    color:red;
+    transform: scale(1.08);
 }
 
 #add{
     border-color: greenyellow;
-    background-color: rgb(80, 98, 105);
+    background-color: rgb(255, 255, 0);
     position: fixed;
-    bottom: 10px;
-    right: 10px;
+    bottom: 20px;
+    right: 20px;
     border-radius: 50%;
 }
 
 #add:hover{
+    background-color: rgb(0,255,0);
+    transform: scale(1.2);
     box-shadow: 4px 4px 12px #000000;
 }
