@@ -13,8 +13,21 @@ html{
     box-shadow: 5px 5px 12px;
 }
 
-.menu{
-    margin: 20px auto;
+.menu_1{
+    display: inline-block;
+    margin-top: 20px;
+    width: 240px;
+    height: 200px;
+    border: solid;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 3px 3px 10px;
+}
+
+.menu_2{
+    display: none;
+    margin-top: 20px;
     width: 240px;
     height: 200px;
     border: solid;
