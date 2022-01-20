@@ -1,50 +1,132 @@
-*{
-    margin: 3px;
-    background-color: #5F4B8BFF;
+html{
+    background-color: #333333;
 }
 
 .heading{
+    margin: 0;
     height: 8vh;
     line-height: 8vh;
     text-align: center;
     border: 2px solid #000000;
     border-radius: 10px;
-    background-color: #E69A8DFF;
-    box-shadow: 3px 3px 10px;
+    background-image: linear-gradient(to right,green, yellow, red);
+    box-shadow: 5px 5px 12px;
 }
 
-.menu{
-    margin: 20px auto;
-    width: 33%;
-    height: 200px;
+.menu_1{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 240px;
+    height: 300px;
     border: solid;
     border-radius: 10px;
     text-align: center;
-    background-color: #E69A8DFF;
-    box-shadow: 3px 3px 10px rgb(60, 22, 136);
+    background-color: #ffffff;
+    box-shadow: 3px 3px 10px;
+}
+
+.menu_2{
+    display: none;
+    margin-left: 30px;
+    width: 240px;
+    height: 300px;
+    border: solid;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 3px 3px 10px;
 }
 
 input{
-    background-color: #a0b6f7;
-    border-radius: 6px;
+    background-color: #ffff;
 }
 
-form, h3{
-    background-color: #E69A8DFF;
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    text-align: left;
+}
+
+.btns{
+    position: relative;
+    top: 150px;
+    background-color: #ffffff;
+}
+
+.addtsk{
+    border: solid;
+    font-size: 12px;
+    border-color: rgb(131, 184, 51);
+    background-color: #ffffff;
+}
+
+.addtsk:hover{
+    transform: scale(1.1);
+    color: white;
+    background-color: rgb(131, 184, 51);
+}
+
+.deltsk{
+    border: solid;
+    font-size: 12px;
+    border-color: red;
+    background-color: #ffffff;
+}
+
+.deltsk:hover{
+    transform: scale(1.1);
+    color: white;
+    background-color: red;
+}
+
+#edit{
+    position: relative;
+    left: 50%;
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    width: 30px;
+    border: none;
+    background-color: #ffffff;
+}
+
+#edit:hover{
+    color: rgb(155, 155, 51);
+    transform: scale(1.08);
+}
+
+#trash{
+    position: relative;
+    left: 50%;
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    width: 30px;
+    border: none;
+    background-color: #ffffff;
+}
+
+#trash:hover{
+    color:red;
+    transform: scale(1.08);
 }
 
 #add{
-    background-color: #E69A8DFF;
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
+    border-color: greenyellow;
+    background-color: rgb(255, 255, 0);
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
     border-radius: 50%;
-    box-shadow: 8px 8px 16px rgb(55, 33, 104);
-}
-.material-icons{
-    background-color: #E69A8DFF;
 }
 
 #add:hover{
-    box-shadow: 4px 4px 12px;
+    background-color: rgb(0,255,0);
+    transform: scale(1.2);
+    box-shadow: 4px 4px 12px #000000;
 }
