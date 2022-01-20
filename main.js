@@ -6,3 +6,8 @@ function add() {
         document.getElementById("2").innerHTML = x;
     }
 }
+
+function del(){
+    var menu_2=document.getElementById("menu_2");
+    menu_2.style.display = "none";
+}
