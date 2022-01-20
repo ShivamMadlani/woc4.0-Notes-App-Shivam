@@ -15,9 +15,10 @@ html{
 
 .menu_1{
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-left: 40px;
     width: 240px;
-    height: 200px;
+    height: 300px;
     border: solid;
     border-radius: 10px;
     text-align: center;
@@ -27,9 +28,9 @@ html{
 
 .menu_2{
     display: none;
-    margin-top: 20px;
+    margin-left: 30px;
     width: 240px;
-    height: 200px;
+    height: 300px;
     border: solid;
     border-radius: 10px;
     text-align: center;
@@ -53,7 +54,7 @@ li{
 
 .btns{
     position: relative;
-    top: 50px;
+    top: 150px;
     background-color: #ffffff;
 }
 
