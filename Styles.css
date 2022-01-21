@@ -13,22 +13,11 @@ html{
     box-shadow: 5px 5px 12px;
 }
 
-.menu_1{
+.menu{
+    position: relative;
     display: inline-block;
     margin-top: 30px;
     margin-left: 40px;
-    width: 240px;
-    height: 300px;
-    border: solid;
-    border-radius: 10px;
-    text-align: center;
-    background-color: #ffffff;
-    box-shadow: 3px 3px 10px;
-}
-
-.menu_2{
-    display: none;
-    margin-left: 30px;
     width: 240px;
     height: 300px;
     border: solid;
@@ -60,6 +49,7 @@ li{
 
 .addtsk{
     border: solid;
+    margin: 2px;
     font-size: 12px;
     border-color: rgb(131, 184, 51);
     background-color: #ffffff;
@@ -73,6 +63,7 @@ li{
 
 .deltsk{
     border: solid;
+    margin: 2px;
     font-size: 12px;
     border-color: red;
     background-color: #ffffff;
