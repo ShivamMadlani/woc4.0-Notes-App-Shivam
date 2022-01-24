@@ -46,8 +46,10 @@ li{
 }
 
 .btns{
-    position: relative;
-    top: 150px;
+    position: absolute;
+    top: 270px;
+    width: 240px;
+    align-items: center;
     background-color: #ffffff;
 }
 
