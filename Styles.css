@@ -13,7 +13,7 @@ html{
     box-shadow: 5px 5px 12px;
 }
 
-.menu{
+#menu{
     position: relative;
     display: inline-block;
     margin-top: 30px;
@@ -43,6 +43,7 @@ ul{
 
 li{
     text-align: left;
+    padding: 5px;
 }
 
 .btns{
@@ -82,8 +83,8 @@ li{
 }
 
 #edit{
-    position: relative;
-    left: 50%;
+    position: absolute;
+    left: 170px;
     margin: 0;
     padding: 0;
     height: 30px;
@@ -98,8 +99,8 @@ li{
 }
 
 #trash{
-    position: relative;
-    left: 50%;
+    position: absolute;
+    left: 200px;
     margin: 0;
     padding: 0;
     height: 30px;
